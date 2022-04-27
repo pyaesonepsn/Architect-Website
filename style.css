@@ -625,3 +625,116 @@ html{
     border-radius: .3rem;
 }
 /* End of Footer */
+
+/* Media Query*/
+@media(max-width: 1000px){
+    .banner h1{
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .banner p {
+        font-size: 2.5rem;
+    }
+
+    .banner button{
+        width: 18rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service{
+        width: 40rem;
+        margin-bottom: 6rem;
+    }
+
+    .about-us-img-wrapper{
+        width: 40rem;
+    }
+
+    .about-us-img-wrapper img{
+        width: 100%;
+    }
+
+    .cards-wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .card{
+        margin-bottom: 8rem;
+    }
+
+    .contact-left{
+        width: 0;
+    }
+
+    .contact-right{
+        width: 100%;
+    }
+
+    .contact-wrapper{
+        width: 90%;
+        height: 65rem;
+    }
+
+    .field{
+        width: 35rem;
+    }
+
+    .input-group textarea{
+        max-width: 35rem;
+    }
+
+    .contact-heading{
+        margin-bottom: 2rem;
+    }
+
+    .submit-btn {
+        width: 35rem;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .copyright{
+        order: 1;
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 45%;
+    }
+
+    .sidebar{
+        width: 100%;
+        right: -100%;
+    }
+
+    .change .hamburger-menu{
+        right: 90%;
+    }
+
+    .service{
+        width: 30rem;
+    }
+
+    .footer{
+        height: 18rem;
+    }
+
+}
+/* End of Media Query*/
